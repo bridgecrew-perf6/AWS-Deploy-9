@@ -6,6 +6,6 @@
         "backend:build": "cd udagram-api && npm run build"
     },
     "devDependencies": {
-        "@types/node": "^16.13.0"
+        "@types/node": "16.13.0"
     }
 }
