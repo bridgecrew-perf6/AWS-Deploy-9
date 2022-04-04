@@ -21,6 +21,7 @@ jobs:
       - run: node --version
       - checkout
       - aws-cli/setup
+      - eb/setup
       - run:
           name: Back-End Install
           command: |
