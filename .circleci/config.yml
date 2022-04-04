@@ -5,13 +5,15 @@ machine:
 orbs:
   node: circleci/node@4.1.0
   aws-cli: circleci/aws-cli@1.3.1
+triggers:
+    filters:
+        branches:
+            only:
+                - main
 jobs:
   build:
     docker:
       - image: "cimg/base:stable"
-    branches:
-      only:
-        - main
     steps:
       - node/install:
           node-version: "16.13.0"
