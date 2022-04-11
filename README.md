@@ -11,7 +11,7 @@
 
 ## Description   
 
-This is an **AWS Delpoyment Project** that uses prebuilt forntend website and nodejs API to deploy on AWS and it was built for a Udacity course. The front end website can be accessed using this link: [http://udagram-test-bucket-1.s3-website-us-east-1.amazonaws.com].  
+This is an **AWS Deployment Project** that uses prebuilt frontend website and nodejs API to deploy on AWS and it was built for a Udacity course. The front end website can be accessed using this link: [http://udagram-test-bucket-1.s3-website-us-east-1.amazonaws.com].  
 
 ## Prequisites 
 
